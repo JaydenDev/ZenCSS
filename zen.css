@@ -1,0 +1,65 @@
+/* ZenUI Static Web Style Framework
+Get a good taste of ZenUI design standards
+JaydenDevelopment 2021
+ZenUI Framework v0.2.1 */
+
+/* *Optional Dependencies */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* Optional CSS to make your page look modern 
+body {
+  background-color: white;
+}
+
+* {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 10pt;
+  color: white;
+}
+*/
+
+/* The actual frame work */
+/* "Clean" class for lists */
+.clean {
+  list-style-type: none;
+}
+
+/* Center a div with ease */
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Use this class for a purple nav bar background */
+.global-navbar-hl-purple {
+  background-color: purple;
+  border-radius: 5pt;
+  padding: 5pt;
+  /*display: flex;
+  justify-content: center; */
+  
+}
+
+/* Use this for a purple background for elements */
+.global-element-hl-purple {
+  background-color: purple;
+  border-radius: 5pt;
+  margin: 0 auto;
+  padding: 5pt;
+}
+
+/* Use this class to make a purple tile */
+.purple-tile {
+  background-color: purple;
+  border-radius: 5pt;
+  margin: 0 auto;
+  padding: 5pt;
+  width: 15%;
+  height: 15%;
+  float: left;
+}
+
