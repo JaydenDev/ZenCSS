@@ -2,7 +2,7 @@
   "name": "@jdev08/zencss",
   "version": "0.3.0",
   "description": "ZenCSS Classless CSS Framework",
-  "main": "zen.min.css",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
