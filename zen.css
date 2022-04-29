@@ -3,27 +3,32 @@ Get a good taste of ZenUI design standards
 JaydenDevelopment 2021
 ZenUI Framework v0.2.1 */
 
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+/* Entire page styles */
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: system-ui;
-    background-image: url(../img/bg.svg);
-    background-size: cover;
+    font-family: Roboto;
+    background-color: #afafaf;
 }
 
+/* global styles */
 * {
-    padding: 0;
-    margin: 0;
-    color: white !important;
+    margin: 3pt;
+    color: black !important;
+    padding: 5pt;
+    border-radius: 15pt;
+    border: none;
 }
 
+/* element dependent styles */
 nav {
-    padding: 1rem;
     display: flex;
+    background-color: #f5f5f5;
 }
 
 nav li {
@@ -36,16 +41,19 @@ nav li a {
     font-size: 10pt;
 }
 
-#content {
-    margin: 3rem;
-    padding: 5pt;
-    border-radius: 5pt;
-}
-
-#gh-cards {
-    display: grid;
+nav li:hover {
+    color: gray;
+    text-decoration: underline;
 }
 
 ul {
     display: flex;
+}
+
+code {
+    font-family: monospace;
+    font-size: 10pt;
+    background-color: #f5f5f5;
+    padding: 5pt;
+    border-radius: 15pt;
 }
