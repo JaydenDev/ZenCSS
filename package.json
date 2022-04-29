@@ -1,0 +1,23 @@
+{
+  "name": "zencss",
+  "version": "0.3.0",
+  "description": "ZenCSS Classless CSS Framework",
+  "main": "zen.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenDev/ZenCSS.git"
+  },
+  "keywords": [
+    "Framework",
+    "CSS"
+  ],
+  "author": "JaydenDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaydenDev/ZenCSS/issues"
+  },
+  "homepage": "https://github.com/JaydenDev/ZenCSS#readme"
+}
