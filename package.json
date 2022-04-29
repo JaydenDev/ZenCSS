@@ -1,5 +1,5 @@
 {
-  "name": "zencss",
+  "name": "@jdev08/zencss",
   "version": "0.3.0",
   "description": "ZenCSS Classless CSS Framework",
   "main": "zen.min.css",
