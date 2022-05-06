@@ -1,6 +1,6 @@
 {
   "name": "@jdev08/zencss",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "ZenCSS Classless CSS Framework",
   "main": "index.js",
   "scripts": {
