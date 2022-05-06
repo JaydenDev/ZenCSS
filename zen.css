@@ -3,8 +3,6 @@ Get a good taste of ZenUI design standards
 JaydenDevelopment 2021
 ZenUI Framework v0.2.1 */
 
-/* Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 /* Entire page styles */
 html {
@@ -12,7 +10,7 @@ html {
 }
 
 body {
-    font-family: Roboto;
+    font-family: system-ui;
     background-color: #afafaf;
 }
 
