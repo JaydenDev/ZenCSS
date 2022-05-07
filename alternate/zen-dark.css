@@ -1,0 +1,66 @@
+/* ZenUI Static Web Style Framework
+Get a good taste of ZenUI design standards
+JaydenDevelopment 2021
+ZenUI Framework v0.2.1 */
+
+
+/* variables */
+:root {
+    --global-bg: #303f9f;
+}
+
+/* Entire page styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui;
+    background-color: #121212;
+}
+
+/* global styles */
+* {
+    margin: 3pt;
+    color: white !important;
+    padding: 5pt;
+    border-radius: 15pt;
+    border: none;
+}
+
+/* element dependent styles */
+nav {
+    display: flex;
+    background-color: var(--global-bg);
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 10pt;
+}
+
+nav li:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+}
+
+code {
+    font-family: monospace;
+    font-size: 10pt;
+    background-color: var(--global-bg);
+    padding: 5pt;
+    border-radius: 15pt;
+}
+
+button, input {
+    background-color: var(--global-bg)
+}
