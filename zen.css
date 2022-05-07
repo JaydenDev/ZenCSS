@@ -3,6 +3,10 @@ Get a good taste of ZenUI design standards
 JaydenDevelopment 2021
 ZenUI Framework v0.2.1 */
 
+/* variables */
+:root {
+    --global-bg: #f5f5f5;
+}
 
 /* Entire page styles */
 html {
@@ -26,7 +30,7 @@ body {
 /* element dependent styles */
 nav {
     display: flex;
-    background-color: #f5f5f5;
+    background-color: var(--global-bg);
 }
 
 nav li {
@@ -51,7 +55,20 @@ ul {
 code {
     font-family: monospace;
     font-size: 10pt;
-    background-color: #f5f5f5;
+    background-color: var(--global-bg);
     padding: 5pt;
     border-radius: 15pt;
+}
+
+label {
+    padding: 5pt;
+    border-radius: 15pt;
+    border: none;
+    background-color: var(--global-bg) !important;
+}
+
+input[type=range] {
+    padding: 5pt;
+    color: gray;
+    background-color: var(--global-bg);
 }

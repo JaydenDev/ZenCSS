@@ -64,3 +64,16 @@ code {
 button, input {
     background-color: var(--global-bg)
 }
+
+label {
+    padding: 5pt;
+    border-radius: 15pt;
+    border: none;
+    background-color: var(--global-bg) !important;
+}
+
+input[type=range] {
+    padding: 5pt;
+    color: gray;
+    background-color: var(--global-bg);
+}
